@@ -52,4 +52,6 @@ The proceeding line changes all of the variables into string form and return eac
 
 (x,y,z) : (Circle area)
 
-The shape file is a super class to the rest of the shapes, it gathers all of the points from the main file from each shape and extracts them to their rightful shape file. It also helps find the center of each shape with he points that are provided in the main file. 
+The shape file is a super class to the rest of the shapes, it gathers all of the points from the main file from each shape and extracts them to their rightful shape file. It also helps find the center of each shape with he points that are provided in the main file. The first three numbers that are defined in the main after the shapes name are the points that each shape is accepting. Here is an example of what it will look like.
+
+Rectangle rectangle = new Rectangle(5,5,5, 4.0, 10.0);
