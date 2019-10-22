@@ -17,3 +17,10 @@ Circle contains:(Pi(r^2))
 
 Radius
 
+The triangle class extends the the Shape class which is defined in another file. The triangle class presets the points of the shape to 0 as well as the base and the height. As the main process file is being ran, the predefined values that are assigned to the triangle class are being run through the getBase() and getHeight() methods. The getBase() and getHeight() methods pull the values defined from the main class and bring it to triangle.java. The final process in determining the area of the triangle is to initiate the following code
+
+return(this.base * this.height)/2
+
+The proceeding line changes all of the variables into string form and return each of the variables in their numberical form in this order:
+
+(x,y,z) : /triangle area\
