@@ -23,4 +23,8 @@ return(this.base * this.height)/2
 
 The proceeding line changes all of the variables into string form and return each of the variables in their numberical form in this order:
 
+public String toString(){
+  return "(" + getX() + ", " + getY() + ", " + getZ() + ")" + ":" + "(" + this.area() + ")";
+}
+
 (x,y,z) : /triangle area\
