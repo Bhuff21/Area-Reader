@@ -60,3 +60,14 @@ The point file sets the points for the variables X, Y, and Z so that they are wi
 
 The main file basically lays out all the values that need to be calculated and in what format that the output needs to be laid out in. It brings in all the solutions to the areas of each shape as a string.
 
+The second file is a file that has the capabilities of finding the smallest, largest, and average number that is input from the user through the keyboard. There are four different variables that are kept up throughout the entire code and they are:
+
+int smallestNumber which taking into the account of what the user is inputing and checking to see if it is less than the number that is already in the value of the variable. At the beginning of the code, the smallest value is set to 101 since the values that are needing to be used are between 1 and 100.
+
+int largestNumber which taking into the account of what the user is inputing and checking to see if it is more than the number that is already in the value of the variable. At the beginning of the code, the largest value is set to 0 since the values that are needing to be used are between 1 and 100.
+
+int totalValue takes a running total of all the values entered in by the user and at the end of the code is divided by the amount of inputs that were taken in from the keyboard to calculate the average that is held in the variable double averageNumber.
+
+Int currentNumber is the number that is the last recorded value from the keyboard from the user.
+
+The value are each taken in one by one through the for loop that is under the scanner and is separated into its correct variable and if it is not needed in one of the variable then it is thrown out. After the process has occurred, each of the value are present is an ordered fashion the follows the in this order: Smallest number, Largest Number, and the average.
