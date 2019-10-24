@@ -59,3 +59,4 @@ Rectangle rectangle = new Rectangle(5,5,5, 4.0, 10.0);
 The point file sets the points for the variables X, Y, and Z so that they are within the bounds defined by the shapes so if the value of any point is less than 0, it is set to a default value of 0 and if the value of a point is greater than 500 then the variable is set to a default value of 500. Then after each point is set to its value it is sent to its correct file and stored in the variables with labels of each point.
 
 The main file basically lays out all the values that need to be calculated and in what format that the output needs to be laid out in. It brings in all the solutions to the areas of each shape as a string.
+
