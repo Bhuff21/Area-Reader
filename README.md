@@ -60,6 +60,8 @@ The point file sets the points for the variables X, Y, and Z so that they are wi
 
 The main file basically lays out all the values that need to be calculated and in what format that the output needs to be laid out in. It brings in all the solutions to the areas of each shape as a string.
 
+
+
 The second file is a file that has the capabilities of finding the smallest, largest, and average number that is input from the user through the keyboard. There are four different variables that are kept up throughout the entire code and they are:
 
 int smallestNumber which taking into the account of what the user is inputing and checking to see if it is less than the number that is already in the value of the variable. At the beginning of the code, the smallest value is set to 101 since the values that are needing to be used are between 1 and 100.
